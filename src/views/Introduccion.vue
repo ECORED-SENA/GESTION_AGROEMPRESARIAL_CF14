@@ -9,6 +9,13 @@
           i.fas.fa-info
       h1 Introducción
     
+    p Se da la bienvenida al estudio del componente #[b “Seguimiento de las estrategias de mercado”]; se desea que todos los participantes tengan una buena experiencia de aprendizaje. Se debe comenzar con la observación del video que se muestra enseguida. 
+    p #[span.txt-color1 ¡Adelante!]
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      
 </template>
 
 <script>
