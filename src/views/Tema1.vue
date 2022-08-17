@@ -6,23 +6,23 @@
       .titulo-principal__numero
         span 1
       h1 Plan de mercadeo
-    .row.justify-content-center.align-items-center 
-        .col-lg-12
-          .bloque-texto-g.color-custom-2.p-3.p-sm-4.p-md-5.mb-5.d-none.d-lg-block
-            .bloque-texto-g__img.m-left(data-aos="fade-left")(
-          :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.png')})`}"
-          )
-            .bloque-texto-g__texto.p-5(data-aos="fade-right")
-              p.mb-3 El componente ambiental es transversal a todos los procesos que se realizan en la unidad productiva. Por tal motivo, es indispensable elaborar un croquis o plano del predio en el cual se identifiquen las características y recursos de la zona aledaña, de los riesgos asociados al suelo y a las fuentes de agua que puedan afectar la calidad e inocuidad del producto.
-
-          .bloque-texto-a.color-custom-3.p-md-0.mb-5.d-block.d-lg-none
-            .row.m-4.align-items-center.justify-content-between
-              .col-lg-9(data-aos="fade-right")
-                .bloque-texto-a__texto.p-5.my-5
-                  p El componente ambiental es transversal a todos los procesos que se realizan en la unidad productiva. Por tal motivo, es indispensable elaborar un croquis o plano del predio en el cual se identifiquen las características y recursos de la zona aledaña, de los riesgos asociados al suelo y a las fuentes de agua que puedan afectar la calidad e inocuidad del producto.
-              .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
-                figure
-                  img(src='@/assets/curso/tema1/img1.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;")
+    .row.justify-content-center.align-items-center
+      .col-lg-12
+        .bloque-texto-g.color-custom-2.p-3.p-sm-4.p-md-5.mb-5.d-none.d-lg-block
+          .bloque-texto-g__img.m-left(data-aos="fade-left")(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.png')})`}"
+        )
+          .bloque-texto-g__texto.p-5(data-aos="fade-right")
+            p.mb-3 Un producto con un diseño llamativo y con una buena calidad cuenta con los elementos más importantes para ser aceptado por sus clientes e incluso, fidelizarlos para hacer recurrentes las ventas. No obstante, no basta con ello, es importante establecer estrategias que permitan definir el tipo de cliente al que se espera llegar y programar las tareas necesarias para convencerlos de adquirir los productos de forma recurrente.   
+        .bloque-texto-a.color-custom-3.p-md-0.mb-5.d-block.d-lg-none
+          .row.m-4.align-items-center.justify-content-between
+            .col-lg-9(data-aos="fade-right")
+              .bloque-texto-a__texto.p-5.my-5
+                p Un producto con un diseño llamativo y con una buena calidad cuenta con los elementos más importantes para ser aceptado por sus clientes e incluso, fidelizarlos para hacer recurrentes las ventas. No obstante, no basta con ello, es importante establecer estrategias que permitan definir el tipo de cliente al que se espera llegar y programar las tareas necesarias para convencerlos de adquirir los productos de forma recurrente.   
+            .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
+              figure
+                img(src='@/assets/curso/tema1/img1.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;")
+    
     .bg1
       .row.justify-content-center.mb-5
         .col-lg-12
@@ -173,7 +173,7 @@
             figure
               img(src='@/assets/curso/tema1/img15.png')
     p.mb-4 Pero ¿cómo evaluar a la competencia? El siguiente listado presenta algunos elementos clave, analícelos y procure llevar registro de lo más destacado en su libreta personal de apuntes:
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right").justify-content-center
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")(data-aos="fade-right").justify-content-center
       .row(titulo="Antecedentes")
         .col-md-6.align-items-center
           h5.ps-5 Antecedentes

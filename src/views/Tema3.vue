@@ -112,11 +112,10 @@
             h5.mb-4.text-center.mb-0 Año 20x0
           td(colspan="2")
             h5.mb-4.text-center.mb-0 Variación
-              tr 
-                td
-                  p.mb-4.text-center.mb-0 $
-                td 
-                  p.mb-4.text-center.mb-0 %
+              td
+                p.mb-4.text-center.mb-0 $
+              td 
+                p.mb-4.text-center.mb-0 %
         tr
           td 
             h5.text-center Producto A
@@ -200,8 +199,87 @@
                 img(src='@/assets/curso/tema3/img10.png' alt='AvatarTop')
             h4.text-center Medición de la efectividad
             p.text-center No obstante, otra forma muy recurrente de medir la efectividad de los programas es contrastando lo efectivamente alcanzado con las expectativas descritas en el diseño y en las etapas tempranas de implementación.
-    p 
+    p La siguiente tabla presenta un comparativo como el mencionado en los aspectos clave:
+    .titulo-sexto.color-acento-contenido
+      p.mb-0 #[b Tabla 4]. Informe de ejecución
+    .tabla-a.color-primario.mb-5(data-aos="fade-right")
+      .tabla-b__header
+        h4.mb-0 Informe de ejecución
+      table         
+        tr(style="background-color: #F6F6F6")
+          td 
+            h5
+          td 
+            h5.mb-4.text-center.mb-0 Incremento obtenido
+          td 
+            h5.mb-4.text-center.mb-0 Incremento proyectado
+          td
+            h5.mb-4.text-center.mb-0 Cumplimiento             
+        tr
+          td 
+            h5.text-center Producto A
+          td 
+            p.mb-4.text-center.mb-0 2.000
+          td 
+            p.mb-4.text-center.mb-0 2.000
+          td 
+            p.mb-4.text-center.mb-0 100%
+          
+        tr(style="background-color: #F6F6F6")
+          td 
+            h5.text-center Producto C
+          td 
+            p.mb-4.text-center.mb-0 300
+          td 
+            p.mb-4.text-center.mb-0 800
+          td 
+            p.mb-4.text-center.mb-0 38%
+          
+        tr
+          td 
+            h5.text-center Producto C
 
+          td 
+            p.mb-4.text-center.mb-0 -200
+          td 
+            p.mb-4.text-center.mb-0 1000
+          td 
+            p.mb-4.text-center.mb-0 -20%
+          
+        tr(style="background-color: #F6F6F6")
+          td 
+            H5.text-center Total
+          td 
+            p.mb-4.text-center.mb-0 2.100
+          td 
+            p.mb-4.text-center.mb-0 3.800
+          td 
+            p.mb-4.text-center.mb-0 55%
+         
+    p.mb-5 La forma de interpretar sigue siendo similar a la anterior; pero las conclusiones derivadas de este análisis son diferentes. Aquí se mide la efectividad en relación con las proyecciones, en lugar de con datos históricos. Así, el producto A resultó potencialmente beneficiado con las estrategias, pues se alcanzó el cumplimiento total de lo presupuestado. El producto B, por otra parte, tuvo un nivel de cumplimiento discreto, lo que significa que las medidas fueron efectivas; pero muy por debajo de lo esperado. Finalmente, el producto C redujo sus ventas, lo que implica que las medidas fueron inadecuadas y no tuvieron la aceptación comercial esperada.
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-5.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema3/img11.png', alt='Texto que describa la imagen').mb-5
+      .col-lg-7.mb-5
+          p Estos resultados usualmente vienen acompañados de un margen de tolerancia. En este sentido:
+          ul.lista-ul
+            li.mb-3 
+              i.fas.fa-angle-right
+              p.mb-0 Una estrategia puede ser considerada como acertada si se alcanza un porcentaje significativo de cumplimiento.
+            li.mb-3 
+              i.fas.fa-angle-right
+              p.mb-0 Así, un nivel de consecución del 80% podría considerarse satisfactorio para algunos analistas, mientras para otros, solo lo sería con un cumplimiento del 95% en adelante.
+            li.mb-3 
+              i.fas.fa-angle-right
+              p.mb-0 La forma de abordar estas interpretaciones y trasladarlas al informe ejecutivo contendrán un componente altamente subjetivo; puesto que los márgenes de tolerancia varían entre unos analistas y otros.
+            li.mb-3 
+              i.fas.fa-angle-right
+              p.mb-0 El informe deberá complementarse con los demás factores que pudieron tener influencia sobre los resultados, así como las expectativas para implementaciones futuras.
+            li.mb-3 
+              i.fas.fa-angle-right
+              p.mb-0 Finalmente, se debe concluir con las apreciaciones más relevantes y las medidas correctivas a aplicar o el rediseño de estrategias que fracasaron en su propósito.
+    
 </template>
 
 <script>

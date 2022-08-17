@@ -64,7 +64,7 @@
 
 .bg4
   position: relative
-  .row .p
+  .row, .row, .row
     position: relative
   &::before
     content: ''
@@ -87,11 +87,25 @@
 .bg-color6
   background-color: #E8CBD3
   height: 478px
+  
 .tarjeta--azul
   background-color: #FFF
   background-image: url(../assets/curso/tema1/img7.png)
   background-repeat: no-repeat
   background-size: cover
+  
+.tarjeta--azul1.acordion__activo
+  background-color: #FFF
+  background-image: url(../assets/curso/tema1/img7.png)
+  background-repeat: no-repeat
+  background-size: cover
+
+.tarjeta--azul1
+  background-color: #F6F6F6
+
+.img-t
+  width: auto
+  height: auto  
 
 .txt-color1
   color: #6E2034
@@ -123,12 +137,19 @@
   background-color: #E4CDD3
 
 .img505 
-  max-width: 518px
-  width: 445px
+  max-width: 520px
+  width: 520px
   height: 262px
   margin-top: -46px
-  margin-left: -156px
-
+  margin-left: -178px
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    max-width: 520px
+    width: 445px
+    margin-left: -156px
+  @media (max-width: $bp-max-md)
+    width: 380px
+    margin-left: -135px
+  
 .height_tarjetas_t6  
   height: 195.09px
   @media screen and (max-width: 420px) 
@@ -206,3 +227,6 @@
 
 .tabla-b__header * 
   color: #12263F
+
+
+

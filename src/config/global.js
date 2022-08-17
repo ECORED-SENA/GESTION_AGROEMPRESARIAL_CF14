@@ -148,32 +148,69 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Plan de mercadeo',
+      referencia:
+        'Servicio Nacional de Aprendizaje. (2007). Paso 5 plan de mercadeo/estrategias de comercialización. SENA.',
+      tipo: 'Cartilla',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Monitoreo y supervisión',
+      referencia:
+        'Instituto Interamericano de Cooperación para la Agricultura (2018). Manual 4: formulación, ejecución y evaluación de la estrategia. IICA.',
+      tipo: 'Manual',
+      link:
+        'http://repositorio.iica.int/bitstream/handle/11324/7044/BVE18040204e.pdf?sequence=1',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Demanda',
+      significado:
+        'Exigencia de la población para adquirir un bien o un servicio.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Endógeno',
+      significado: 'Que proviene de fuentes internas.',
+    },
+    {
+      termino: 'Organización mercantil',
+      significado:
+        'Entidad dedicada a la venta de bienes o a la prestación de servicios con ánimo de lucro.',
+    },
+    {
+      termino: 'Población objetivo',
+      significado:
+        'Segmento del mercado al que se espera llegar con la oferta de productos.',
+    },
+    {
+      termino: 'Producto sustitutivo',
+      significado:
+        'Cualquier producto que satisface la misma necesidad que otro.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Asana. (2020). ¿Qué es un diagrama de Gantt, para qué sirve y cómo crear uno? Asana. ',
+      link: 'https://asana.com/es/resources/gantt-chart-basics',
+    },
+    {
+      referencia:
+        'Instituto Interamericano de Cooperación para la Agricultura. (2018). Manual 4: formulación, ejecución y evaluación de la estrategia. IICA.',
+      link:
+        'http://repositorio.iica.int/bitstream/handle/11324/7044/BVE18040204e.pdf?sequence=1',
+    },
+    {
+      referencia:
+        'Junta de Andalucía. (2016). Procedimiento, seguimiento y control del proyecto. Junta de Andalucía.',
+      link:
+        'http://www.juntadeandalucia.es/servicios/madeja/contenido/procedimiento/28',
+    },
+    {
+      referencia:
+        'Lauriac, N. (2016). Diseño e implementación de un sistema de monitoreo. Terre des hommes.',
+      link:
+        'https://www.tdh.ch/sites/default/files/161019_tdh_guidemonitoring_es_version_impression.pdf',
     },
   ],
   creditos: {
@@ -187,9 +224,35 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable Equipo desarrollo curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andrés Avilán',
+        cargo: 'Experto temático',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima ',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesora metodológica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesora metodológica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Correctora de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -200,41 +263,72 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Edison Mnatilla Cuadros',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Sandra Milena Triana Pinto',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Yicelly Estefania Mesa Silva',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Laura Ximena Hurtado Villalba',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Oleg Litvin',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

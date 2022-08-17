@@ -22,7 +22,7 @@
                   p La planeación puede considerarse uno de los pilares fundamentales de la administración, puesto que permite dilucidar los objetivos que se esperan alcanzar, en un periodo de tiempo determinado y el cúmulo de acciones a través de los cuales se materializarán.
               .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
                 figure
-                  img(src='@/assets/curso/tema1/img1.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;")
+                  img(src='@/assets/curso/tema2/img1.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;")
       .row.justify-content-center.mb-5
         .col-lg-12
           .cajon.color-acento-contenido.p-4
@@ -87,7 +87,7 @@
                   img.mb-3(src='@/assets/curso/tema2/img9.svg')
                 .col-lg-10
                   p.text-dark El planteamiento de los objetivos estratégicos definidos en la planeación serán el insumo principal para elegir los elementos a evaluar. En principio deben elegirse los procesos y resultados que serán medidos, es recomendable que se distingan por naturaleza o área funcional. Esto posibilita la designación de responsables y la elaboración de informes independientes para cada departamento de la empresa. 
-          div(x="32.3%" y="47.2%" tooltip="Click para leer mas...")
+          div(x="32.3%" y="47.2%" tooltip="Click para leer mas..." numero="+")
             .row.justify-content-center.align-items-center
               .col-lg-10
                 h4.mb-3.text-dark Definir indicadores
@@ -132,6 +132,7 @@
                      img.mb-3(src='@/assets/curso/tema2/img11.svg')
                   .col-lg-10
                     p.text-dark En esta fase se debe tener claridad respecto al plazo que se le dará a las estrategias para medir su efectividad. Tratándose de aspectos estratégicos, usualmente se evalúa a partir de un año desde su implementación; sin embargo, existe una supervisión permanente sobre los detalles para minimizar los eventos que lastren la efectividad de las medidas aplicadas.
+          
     separador
     #t_2_2
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -209,7 +210,7 @@
           img(src='@/assets/curso/tema2/img21.svg')
           figcaption #[b Nota]. Adaptado de la Junta de Andalucía (2016).
     p Sobre el plan de acciones de seguimiento tenga presente las siguientes generalidades:
-    .row.mt-5
+    .row.mt-5.mb-5.mb-lg-0
       .col-lg-6
         .row.mb-5
           .col-md-12.mb-5.mb-md-0
@@ -257,7 +258,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-1.mb-3
             figure
-              img(src='@/assets/curso/tema1/img31.png').mx-auto(data-aos="fade-right")
+              img.mx-auto(src='@/assets/curso/tema1/img31.png')
           .col-lg-11
             h5 Importante
             p.mb-0 El informe de seguimiento, continuará siendo objeto de modificaciones hasta cuando finalice el ciclo de supervisión, que dará cabida a un nuevo proceso, una vez se modifiquen las estrategias a aplicar en la operación del negocio.
