@@ -100,67 +100,63 @@
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Tabla 3]. Informe histórico de ventas
     .tabla-a.color-primario.mb-5(data-aos="fade-right")
-      .tabla-b__header
-        h4.mb-0 Informe histórico de ventas
-      table         
-        tr(style="background-color: #F6F6F6")
-          td 
-            h5
-          td 
-            h5.mb-4.text-center.mb-0 Año 20x1
-          td 
-            h5.mb-4.text-center.mb-0 Año 20x0
-          td(colspan="2")
-            h5.mb-4.text-center.mb-0 Variación
-              td
-                p.mb-4.text-center.mb-0 $
-              td 
-                p.mb-4.text-center.mb-0 %
-        tr
-          td 
-            h5.text-center Producto A
-          td 
-            p.mb-4.text-center.mb-0 15.000
-          td 
-            p.mb-4.text-center.mb-0 13.000
-          td 
-            p.mb-4.text-center.mb-0 2000
-          td 
-            p.mb-4.text-center.mb-0 15,4%
-        tr(style="background-color: #F6F6F6")
-          td 
-            h5.text-center Producto C
-          td 
-            p.mb-4.text-center.mb-0 2.500
-          td 
-            p.mb-4.text-center.mb-0 2.200
-          td 
-            p.mb-4.text-center.mb-0 300
-          td 
-            p.mb-4.text-center.mb-0 13,6%
-        tr
-          td 
-            h5.text-center Producto C
+      table
+        thead
+          tr 
+            th(colspan="5").text-center Informe histórico de ventas  
+        tbody        
+          tr(style="background-color: #F6F6F6")
+            td(rowspan="2")
+            td(rowspan="2").text-center #[b Año 20x1]
+            td(rowspan="2").text-center #[b Año 20x0]
+            td(colspan="2").text-center #[b Variación]
+          tr(style="background-color: #F6F6F6")
+            td.text-center $
+            td.text-center %
+          tr
+            td 
+              h5.text-center Producto A
+            td 
+              p.mb-4.text-center.mb-0 15.000
+            td 
+              p.mb-4.text-center.mb-0 13.000
+            td 
+              p.mb-4.text-center.mb-0 2000
+            td 
+              p.mb-4.text-center.mb-0 15,4%
+          tr(style="background-color: #F6F6F6")
+            td 
+              h5.text-center Producto B
+            td 
+              p.mb-4.text-center.mb-0 2.500
+            td 
+              p.mb-4.text-center.mb-0 2.200
+            td 
+              p.mb-4.text-center.mb-0 300
+            td 
+              p.mb-4.text-center.mb-0 13,6%
+          tr
+            td 
+              h5.text-center Producto C
 
-          td 
-            p.mb-4.text-center.mb-0 3.000
-          td 
-            p.mb-4.text-center.mb-0 3.200
-          td 
-            p.mb-4.text-center.mb-0 -200
-          td 
-            p.mb-4.text-center.mb-0 -6,3%
-        tr(style="background-color: #F6F6F6")
-          td 
-            H5.text-center Total
-          td 
-            p.mb-4.text-center.mb-0 20.500
-          td 
-            p.mb-4.text-center.mb-0 18.400
-          td 
-            p.mb-4.text-center.mb-0 2.100
-          td 
-            p.mb-4.text-center.mb-0 11,4%
+            td 3.000
+              
+            td 3.200
+             
+            td -200
+              
+            td -6,3%
+          tr(style="background-color: #F6F6F6")
+            td 
+              H5.text-center Total
+            td 
+              p.mb-4.text-center.mb-0 20.500
+            td 
+              p.mb-4.text-center.mb-0 18.400
+            td 
+              p.mb-4.text-center.mb-0 2.100
+            td 
+              p.mb-4.text-center.mb-0 11,4%
     .row.justify-content-center.mb-5
       .col-lg-12
         .cajon.color-acento-contenido.p-4
