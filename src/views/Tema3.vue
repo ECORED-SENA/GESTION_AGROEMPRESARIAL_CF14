@@ -68,7 +68,7 @@
     separador
     #t_3_2
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.2 Evaluación estratégica
+      h2 3.2 Resultados
     .row.align-items-center.mb-5
       .col-lg
         .row.align-items-start.mb-4(data-aos="fade-right")
@@ -139,13 +139,13 @@
             td 
               h5.text-center Producto C
 
-            td 3.000
+            td.mb-4.text-center.mb-0 3.000
               
-            td 3.200
+            td.mb-4.text-center.mb-0 3.200
              
-            td -200
+            td.mb-4.text-center.mb-0 -200
               
-            td -6,3%
+            td.mb-4.text-center.mb-0 -6,3%
           tr(style="background-color: #F6F6F6")
             td 
               H5.text-center Total

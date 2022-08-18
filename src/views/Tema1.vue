@@ -305,7 +305,7 @@
           .col-lg-11
             h5 Para tener presente
             p.mb-0 La conjunción de las cuatro fases del plan de mercadeo otorga un panorama claro y detallado de los aspectos internos y externos que tienen relación con la gestión comercial. Lograr aprovechar las ventajas y oportunidades descubiertas para afrontar la competencia y suplir las necesidades de la demanda, no solo se convierte en el objetivo primordial del plan de mercadeo, sino en el propósito que garantiza la subsistencia de la organización. 
-    .row.justify-content-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
@@ -313,6 +313,7 @@
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Finalmente, como herramienta de apoyo en la gestión estratégica es recomendable hacer uso de la matriz DOFA (Debilidades, Oportunidades, Fortalezas y Amenazas), con la cual se pueden ubicar los puntos a favor y en contra que tiene la empresa para alcanzar sus objetivos. Lo que se logra con ella es conjugar los diferentes escenarios identificados y proponer estrategias que mitiguen los riesgos, potencien las fortalezas y ataquen las amenazas que surgen en el ambiente competitivo.
+    p.mb-4 Reconozca en la siguiente tabla el esquema elemental de una matriz DOFA, en la que las casillas internas deben contener las estrategias para aprovechar la conjunción de las situaciones que se presentan en sus extremos:
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       p.mb-0 #[b Tabla 1]. Matriz DOFA
     .tabla-a.color-primario(data-aos="fade-right")

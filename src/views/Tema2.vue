@@ -72,6 +72,7 @@
             img(src='@/assets/curso/tema2/img8.png', alt='Texto que describa la imagen' ).mb-5
             h4.text-center Pasos sistemáticos
             p.text-center El proceso de evaluación sigue una serie de pasos sistemáticos que se incluyen dentro de un ciclo que se repite continuamente para mantener constante la evolución del negocio.
+    p.mb-4.text-center Identifique las fases del proceso de evaluación que se mencionan y explican en el siguiente recurso:
     .row(data-aos="fade-up-left")
       .col-xxl-12.col-lg-12.col-12.p-0
         ImagenInfograficaB.color-acento-botones.mb-5
