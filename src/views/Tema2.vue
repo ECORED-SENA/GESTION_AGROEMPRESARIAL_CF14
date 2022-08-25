@@ -85,7 +85,7 @@
                 h4.mb-3.text-dark Establecer lo que se medirá
               .row
                 .col-lg-2
-                  img.mb-3(src='@/assets/curso/tema2/img9.svg')
+                  img.mb-3.img-t(src='@/assets/curso/tema2/img9.svg').mx-auto
                 .col-lg-10
                   p.text-dark El planteamiento de los objetivos estratégicos definidos en la planeación serán el insumo principal para elegir los elementos a evaluar. En principio deben elegirse los procesos y resultados que serán medidos, es recomendable que se distingan por naturaleza o área funcional. Esto posibilita la designación de responsables y la elaboración de informes independientes para cada departamento de la empresa. 
           div(x="32.3%" y="47.2%" tooltip="Click para leer mas..." numero="+")
@@ -189,7 +189,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-1.mb-3
             figure
-              img(src='@/assets/curso/tema1/img31.png').mx-auto(data-aos="fade-right")
+              img.img-t(src='@/assets/curso/tema1/img31.png').mx-auto(data-aos="fade-right").mx-auto
           .col-lg-11
             h5 Atención
             p.mb-0 La realización de las actividades de monitoreo no se debe limitar a la recolección de información, si bien constituyen el insumo principal, apenas y aportan la materia prima para los resultados finales.
@@ -259,7 +259,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-1.mb-3
             figure
-              img.mx-auto(src='@/assets/curso/tema1/img31.png')
+              img.img-t(src='@/assets/curso/tema1/img31.png').mx-auto
           .col-lg-11
             h5 Importante
             p.mb-0 El informe de seguimiento, continuará siendo objeto de modificaciones hasta cuando finalice el ciclo de supervisión, que dará cabida a un nuevo proceso, una vez se modifiquen las estrategias a aplicar en la operación del negocio.

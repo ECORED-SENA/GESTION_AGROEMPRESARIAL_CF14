@@ -24,6 +24,9 @@
               figure
                 img(src='@/assets/curso/tema3/img1.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;")
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-6.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema3/img2.png', alt='Texto que describa la imagen')
       .col-lg-6.mb-5
           p Como elemento final se debe presentar un informe de resultados que:
           ul.lista-ul
@@ -42,9 +45,7 @@
             li.mb-0 
               i.fas.fa-angle-right
               p.mb-3 En caso de que existan objetivos inconclusos, también revelará las situaciones que dieron lugar a ello. 
-      .col-lg-6.mb-4.mb-lg-0.d-flex-
-        figure
-          img(src='@/assets/curso/tema3/img2.png', alt='Texto que describa la imagen')
+      
     separador
     #t_3_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -73,15 +74,14 @@
       .col-lg
         .row.align-items-start.mb-4(data-aos="fade-right")
           .col
-            p.mb-4 La medición de los resultados depende esencialmente de dos factores: los #[b objetivos propuestos] o estimados y su #[b nivel de cumplimiento]. Un plan de mercadeo debe apuntar siempre a un mismo objetivo general, la maximización de las utilidades, a través de la aplicación de medidas eficientes que minimicen costos o de la mejora en los indicadores de ventas alcanzadas.
-          
-        .cajon.color-acento-contenido.p-4(data-aos="fade-left")
+            p.mb-4 La medición de los resultados depende esencialmente de dos factores: los #[b objetivos propuestos] o estimados y su #[b nivel de cumplimiento]. Un plan de mercadeo debe apuntar siempre a un mismo objetivo general, la maximización de las utilidades, a través de la aplicación de medidas eficientes que minimicen costos o de la mejora en los indicadores de ventas alcanzadas.    
+        .cajon.color-acento-contenido.p-4(data-aos="fade-left").mb-5
           p.mb-0 Es así como se debe incluir en el informe una comparativa que contemple las métricas y las contraste antes y después de la aplicación del plan, como con los resultados proyectados previos a la aplicación.
       .col-lg-auto
         figure
           img(src='@/assets/curso/tema3/img4.png')(data-aos="fade-right")
     p Los siguientes elementos constituyen los pilares fundamentales en la medición de los resultados de un plan de mercadeo:
-    .row.mt-5.justify-content-center.align-items-center(data-aos="fade-left")
+    .row.mt-5.justify-content-center.align-items-center(data-aos="fade-left").mb-5
         .col-lg-6
           .row.mb-5
             .col-md-12.mb-5.mb-md-0
@@ -163,7 +163,7 @@
           p.mb-0 De la tabla 3 pueden extraerse múltiples apreciaciones que contribuyen a medir la efectividad de las estrategias aplicadas, por ejemplo, si las acciones relativas al producto C difieren de los demás deben replantearse a futuro, puesto que las variaciones negativas indican una tendencia negativa en el nivel de ventas. Situación contraria se observa con los productos A y B que mostraron un crecimiento de un año a otro.
     p.mb-4.text-center En relación con los resultados tenga en cuenta los aspectos clave que se enuncian a continuación: 
     .row.justify-content-center.align-items-center(data-aos="fade-left")
-      .col-lg-10
+      .col-lg-12
         SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
           .tarjeta.tarjeta.bg-color6.p-4
             .row.justify-content-center.mb-3

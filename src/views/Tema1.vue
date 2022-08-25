@@ -130,7 +130,7 @@
             figure
               img(src='@/assets/curso/tema1/img11.png', alt='Texto que describa la imagen')
     p.py-3 Una vez se defina el sector económico al que pertenece la empresa, se debe buscar toda la información relevante de este, para analizar potenciales oportunidades y amenazas. Existen diversas bases de datos que aportan información estadística útil y práctica; en Colombia, la entidad líder en este marco es DANE (Departamento Administrativo Nacional de Estadística), que recolecta información útil para el diseño de políticas públicas, involucrando temas demográficos, sociales y económicos. 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .cajon.color-acento-contenido.p-4
           p.mb-0 El estudio del sector implica identificar las tendencias de crecimiento o desarrollo, para saber si el producto tiene un buen margen de evolución, apalancado por las ventajas del sector. En ese proceso también pueden encontrarse amenazas, como regulaciones estrictas por parte del estado o aversión de parte de la población a prácticas que sean consideras controversiales.       
@@ -148,33 +148,33 @@
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Generación del plan de mercado]
             p El plan de mercadeo debe plantearse previo a cualquier inversión significativa o trabajo de fondo, pues la viabilidad de una organización depende en gran medida de los resultados comerciales que se esperen. 
-          .col-lg-8.ps-4
+          .col-md-8
             figure
-              img(src='@/assets/curso/tema1/img12.png')
+              img(src='@/assets/curso/tema1/img12.png').m-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Escala de competición y tradición histórica]
             p Si se destina una cantidad de recursos muy elevada para crear, por ejemplo, una bebida gaseosa que compita con titanes del marketing como Coca Cola, es posible que los resultados efectivos nunca alcancen las expectativas, puesto que este mercado se encuentra fuertemente dominado por un competidor de escala inmensa y de una tradición histórica que pocas empresas tienen en el mundo.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema1/img13.png')
+              img(src='@/assets/curso/tema1/img13.png').m-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Plan detallado]
             p Para sobresalir en un mercado, la empresa debe ser muy estratégica, contar con un plan de acción muy detallado que involucre no solo las tareas a llevar a cabo sino también los recursos necesarios, de tal forma que el capital se invierta de forma organizada, garantizando un flujo constante que no deje las estrategias implementadas a media marcha.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema1/img14.png')
-        .row.align-items-center
+              img(src='@/assets/curso/tema1/img14.png').m-auto
+        .row.align-items-center(data-aos="fade-right")
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Evaluación de la competencia]
             p En esta fase es muy importante indagar a fondo las empresas que se consideren como competencia, esto significa una evaluación de sus estados financieros, un estudio de sus diseños y productos, un análisis de su cadena de distribución e incluso, el abordaje a sus clientes para identificar la concepción que se tiene de estas en el mercado objetivo.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema1/img15.png')
+              img(src='@/assets/curso/tema1/img15.png').m-auto
     p.mb-4 Pero ¿cómo evaluar a la competencia? El siguiente listado presenta algunos elementos clave, analícelos y procure llevar registro de lo más destacado en su libreta personal de apuntes:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")(data-aos="fade-right").justify-content-center
-      .row(titulo="Antecedentes")
+      .row(titulo="Antecedentes")(data-aos="fade-right")
         .col-md-6.align-items-center
           h5.ps-5 Antecedentes
           p.ps-5 ¿Cómo nacen estas empresas, cuál ha sido su trayectoria y cuál es su magnitud en la actualidad?
@@ -202,18 +202,18 @@
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10
         .tarjeta--container.row.mb-5
-          .col-md.tarjeta.color-secundario.border-tarjetas_t6.p-5
+          .col-md.tarjeta.color-secundario.border-tarjetas_t6.p-5.mb-5
             .row.justify-content-center.mb-4.height_tarjetas_t6
               .col-5
                 figure
                 img.img505(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
-            p.pt-4 Otra estrategia que amerita aplicar en el análisis de la competencia es una comparativa con las demás empresas para determinar las diferencias más representativas en aspectos tales como tecnología, situación financiera, procesos productivos y buen nombre. 
+            p.pt-5 Otra estrategia que amerita aplicar en el análisis de la competencia es una comparativa con las demás empresas para determinar las diferencias más representativas en aspectos tales como tecnología, situación financiera, procesos productivos y buen nombre. 
           .col-md.tarjeta.color-secundario.border-tarjetas_t6.tar1.p-5
             .row.justify-content-center.mb-4.height_tarjetas_t6
               .col-5.mb-5
                 figure
                   img.img505(src='@/assets/curso/tema1/img21.png', alt='Texto que describa la imagen')
-            p.pt-4 Medir las diferencias y categorizarlas puede facilitar la priorización de medidas, de tal forma que se aborden las debilidades más prominentes en el corto plazo, haciendo un uso inteligente de los recursos disponibles.
+            p.pt-5 Medir las diferencias y categorizarlas puede facilitar la priorización de medidas, de tal forma que se aborden las debilidades más prominentes en el corto plazo, haciendo un uso inteligente de los recursos disponibles.
     ol.lista-ol--cuadro
       li 
         .lista-ol--cuadro__vineta
@@ -221,7 +221,7 @@
         h3 Estudio del mercado y la demanda.
     p Sin importar lo saturado del mercado siempre existirán necesidades insatisfechas o inconformidades por parte de los clientes. Esto quiere decir que siempre habrá cabida para una empresa más en el sector, pero dependerá de su capacidad el penetrar el mercado y lograr una porción de la demanda.
     p Para lograr incursionar de forma exitosa en el mercado se deben tener en cuenta aspectos de suma importancia como los que se enuncian a continuación:
-    .row.mt-5
+    .row.mt-5(data-aos="fade-right")
         .col-lg-6
           .row.mb-5
             .col-md-12.mb-5.mb-md-0
@@ -233,10 +233,10 @@
                 p(numero="5" titulo="Identificación de hábitos de consumo") Existen diversas posturas desde la cual abordar la demanda; pero la más directa consiste en la identificación de los hábitos de consumo del bien o servicio a ofertar, es decir, la periodicidad con la que se compraría y utilizaría, así como el tipo de público al que está dirigido. 
                 p(numero="6" titulo="Estudio demográfico") A lo anterior se debe sumar un estudio demográfico donde, a partir de las estadísticas disponibles, se determine cuántas personas en aquella población cumplen el criterio para ser clientes. Esto puede dar un volumen aproximado de ventas totales.
         .col-lg-6.d-flex.align-items-center
-          img(src='@/assets/curso/tema1/img22.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img22.png', alt='Texto que describa la imagen').mb-5
     P Analice la siguiente situación ejemplo y determine los pasos que en ella se siguen para lograr la incursión en un mercado objetivo:
     .row.mt-5
-        .col-lg-6.d-flex.align-items-center
+        .col-lg-6.d-flex.align-items-center.mb-5
           img(src='@/assets/curso/tema1/img23.png', alt='Texto que describa la imagen')
         .col-lg-6
           .row.mb-5
@@ -287,7 +287,7 @@
     p En cuanto al análisis de la empresa, existen diversos elementos a tener en cuenta. Enseguida se muestran algunos de los más importantes:
     .row.mt-5.align-items-center
         .col-lg-6
-          .row.mb-3(data-aos="fade-right")
+          .row.mb-5(data-aos="fade-right")
             .col-md-12.mb-5.mb-md-0
               LineaTiempoD.color-primario
                 p(numero="1" titulo="Producto") ¿Qué tipo de producto se va a vender al mercado?, ¿cumple con las necesidades observadas en los clientes potenciales? Se debe evaluar si existe una variedad suficiente de opciones para cada tipo de comprador, también puede verificarse si su presentación es atractiva y, en caso de que aplique, si cumple con la normatividad correspondiente. 
@@ -295,18 +295,18 @@
                 p(numero="3" titulo="Importancia de la identificación") Una correcta identificación puede abrir una ventana de oportunidad a crear un producto adecuado para algunas de estas necesidades, creando una ventaja competitiva en el medio.                
                 p(numero="4" titulo="Cuantificar la demanda") En esta fase resulta prioritario cuantificar la demanda del producto que se ofrecerá al mercado.
         .col-lg-6.d-flex.align-items-center
-          img(src='@/assets/curso/tema1/img30.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema1/img30.png', alt='Texto que describa la imagen').mb-4
     .row.mb-5
       .col-12.bg-color4.p-4
         .row.align-items-center.justify-content-center
           .col-lg-1.mb-3
             figure
-              img(src='@/assets/curso/tema1/img31.png').mx-auto(data-aos="fade-right")
+              img.img-t(src='@/assets/curso/tema1/img31.png').mx-auto(data-aos="fade-right").mx-auto
           .col-lg-11
             h5 Para tener presente
             p.mb-0 La conjunción de las cuatro fases del plan de mercadeo otorga un panorama claro y detallado de los aspectos internos y externos que tienen relación con la gestión comercial. Lograr aprovechar las ventajas y oportunidades descubiertas para afrontar la competencia y suplir las necesidades de la demanda, no solo se convierte en el objetivo primordial del plan de mercadeo, sino en el propósito que garantiza la subsistencia de la organización. 
     .row.justify-content-center(data-aos="fade-right")
-      .col-lg-10
+      .col-lg-12
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img32.png')})`}"
@@ -380,7 +380,7 @@
         .row.align-items-center.justify-content-center(data-aos="fade-right")
           .col-lg-1.mb-3
             figure
-              img(src='@/assets/curso/tema1/img31.png').mx-auto(data-aos="fade-right")
+              img.img-t(src='@/assets/curso/tema1/img31.png').mx-auto(data-aos="fade-right").mx-auto
           .col-lg-11
             p.mb-0 Si bien existen herramientas especializadas en el diseño de este diagrama, es posible elaborar una versión simplificada del mismo haciendo uso de una hoja de cálculo.
     p Observe con atención el siguiente ejemplo de cronograma para la ejecución de una estrategia que involucra una campaña publicitaria en medios masivos:

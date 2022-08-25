@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Seguimiento de las estrategias de mercadeo',
     descripcionCurso:
       'Este componente formativo afianzará al aprendiz en la implementación de estrategias de mercadeo en la búsqueda de consecución de mejores resultados comerciales en cualquier organización. Proceso que requiere de una planeación y un conocimiento del negocio y su entorno. Una vez se tiene un panorama claro se deben aplicar las estrategias que permitan llevar a los resultados esperados.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
