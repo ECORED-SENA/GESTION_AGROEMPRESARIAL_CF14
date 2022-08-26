@@ -54,7 +54,8 @@
             img(src='@/assets/curso/tema1/img4.svg', alt='Texto que describa la imagen')
       .bg2
         .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-          p.text-center En relación con el plan de mercadeo tenga en cuenta los siguientes elementos:
+          .col-lg-12
+            p.text-center En relación con el plan de mercadeo tenga en cuenta los siguientes elementos:
           .col-lg-5.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/img5.png', alt='Texto que describa la imagen')
@@ -102,33 +103,33 @@
     .tarjeta.tarjeta--gris.p-4.bg3.mb-5.p-5(data-aos="zoom-in-down")    
       PasosB.color-acento-botones
         .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h5 1. Primario- Extractivo
             p Comprende actividades asociadas con explotación de los recursos naturales. Incluye agricultura, ganadería o minería. Las unidades productivas agroempresariales en principio encajan en este sector. Así como cualquier empresa dedicada a la cría de ganado, producción de leche o extracción de carbón, y demás tareas que involucren un proceso mayoritariamente extractivo.
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/tema1/img8.png', alt='Texto que describa la imagen')
         .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h5 2. Secundario- Industrial
             p Empresas dedicadas a la transformación de materias primas en productos terminados. La actividad industrial puede presentarse esencialmente en dos formas, la producción masiva, a través de procesos estandarizados complejos que requieren inversiones significativas en maquinaria y equipo, o por medio de las actividades de artesanía, que trabajan bajo la misma mecánica; pero en una menor escala con procesos más simplificados.  Empresas del sector: construcciones, producción textil, elaboración de productos bioquímicos y cualquier otra en la que se dé mayor relevancia a la transformación de materiales en productos terminados diferenciados.
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/tema1/img9.png', alt='Texto que describa la imagen')
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
             h5 3. Terciario- Comercial/Servicios
             p Empresas que adquieren bienes para venderlos sin someterlos a transformaciones significativas. Puede variar presentación, tamaños, colores, etc. Se concibe en este grupo a tiendas o grandes superficies, almacenes de ropa, electrodomésticos, entre otros. Además de la comercialización, este sector involucra las actividades de servicios donde prima el factor material así como el uso de herramientas especializadas, transporte de personas o materiales, reparaciones locativas o electrónicas,  intermediación inmobiliaria, etc.
-          .col-md-6
+          .col-lg-6
             figure
-              img(src='@/assets/curso/tema1/img10.png', alt='Texto que describa la imagen')
-        .row(titulo="")
+              img.img-t(src='@/assets/curso/tema1/img10.png', alt='Texto que describa la imagen')
+        .row(titulo="").mx-auto
           .col-md-6.mb-4.mb-md-0
             h5 4. Cuaternario- Información
             p Su concepción es mucho más reciente y surge producto del desarrollo constante de la dinámica económica. Este sector comprende la prestación de servicios donde prima el factor intelectual sobre el material, y ha tomado especial relevancia debido a la forma en la que participa e interactúa con los demás sectores, puesto que potencia la efectividad de la gestión y producción de estos. En este segmento se incluyen empresas dedicadas a la investigación y desarrollo, a las tecnologías de la información, a la innovación o a la consultoría especializada.
-          .col-md-6
+          .col-lg-6
             figure
-              img(src='@/assets/curso/tema1/img11.png', alt='Texto que describa la imagen')
+              img.img-t(src='@/assets/curso/tema1/img11.png', alt='Texto que describa la imagen').mx-auto
     p.py-3 Una vez se defina el sector económico al que pertenece la empresa, se debe buscar toda la información relevante de este, para analizar potenciales oportunidades y amenazas. Existen diversas bases de datos que aportan información estadística útil y práctica; en Colombia, la entidad líder en este marco es DANE (Departamento Administrativo Nacional de Estadística), que recolecta información útil para el diseño de políticas públicas, involucrando temas demográficos, sociales y económicos. 
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -142,36 +143,36 @@
     p Salvo que se diseñe o elabore un producto completamente innovador es muy probable que en el mercado al que se piense involucrar ya existan otros bienes o servicios que suplan las mismas necesidades. Esto se erige como una de las principales amenazas de cualquier empresa nueva, la competencia.
     p Cuando se trata de nuevos emprendimientos la competencia siempre cuenta con una gran ventaja, puesto que su historia lo respalda; ya cuentan con una aceptación en el mercado y de manera natural, las personas suelen ser renuentes a los cambios. 
     p En lo relacionado con el análisis de la competencia tenga en cuenta las siguientes generalidades:
-    .tarjeta.tarjeta--azul.p-4.mb-5
+    .tarjeta.tarjeta--azul.p-5.mb-5
       SlyderA(tipo="b")(data-aos="fade-right")
         .row.align-items-center.justify-content-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Generación del plan de mercado]
             p El plan de mercadeo debe plantearse previo a cualquier inversión significativa o trabajo de fondo, pues la viabilidad de una organización depende en gran medida de los resultados comerciales que se esperen. 
-          .col-md-8
+          .col-lg-8
             figure
-              img(src='@/assets/curso/tema1/img12.png').m-auto
+              img.img-t(src='@/assets/curso/tema1/img12.png').mx-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Escala de competición y tradición histórica]
             p Si se destina una cantidad de recursos muy elevada para crear, por ejemplo, una bebida gaseosa que compita con titanes del marketing como Coca Cola, es posible que los resultados efectivos nunca alcancen las expectativas, puesto que este mercado se encuentra fuertemente dominado por un competidor de escala inmensa y de una tradición histórica que pocas empresas tienen en el mundo.
-          .col-lg-8.ps-4
+          .col-lg-8
             figure
-              img(src='@/assets/curso/tema1/img13.png').m-auto
+              img.img-t(src='@/assets/curso/tema1/img13.png').mx-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Plan detallado]
             p Para sobresalir en un mercado, la empresa debe ser muy estratégica, contar con un plan de acción muy detallado que involucre no solo las tareas a llevar a cabo sino también los recursos necesarios, de tal forma que el capital se invierta de forma organizada, garantizando un flujo constante que no deje las estrategias implementadas a media marcha.
-          .col-lg-8.ps-4
+          .col-lg-8
             figure
-              img(src='@/assets/curso/tema1/img14.png').m-auto
+              img.img-t(src='@/assets/curso/tema1/img14.png').mx-auto
         .row.align-items-center(data-aos="fade-right")
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Evaluación de la competencia]
             p En esta fase es muy importante indagar a fondo las empresas que se consideren como competencia, esto significa una evaluación de sus estados financieros, un estudio de sus diseños y productos, un análisis de su cadena de distribución e incluso, el abordaje a sus clientes para identificar la concepción que se tiene de estas en el mercado objetivo.
-          .col-lg-8.ps-4
+          .col-lg-8
             figure
-              img(src='@/assets/curso/tema1/img15.png').m-auto
+              img.img-t(src='@/assets/curso/tema1/img15.png').mx-auto
     p.mb-4 Pero ¿cómo evaluar a la competencia? El siguiente listado presenta algunos elementos clave, analícelos y procure llevar registro de lo más destacado en su libreta personal de apuntes:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")(data-aos="fade-right").justify-content-center
       .row(titulo="Antecedentes")(data-aos="fade-right")
@@ -202,15 +203,15 @@
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10
         .tarjeta--container.row.mb-5
-          .col-md.tarjeta.color-secundario.border-tarjetas_t6.p-5.mb-5
-            .row.justify-content-center.mb-4.height_tarjetas_t6
+          .col-md.tarjeta.color-secundario.border-tarjetas_t6.p-5.mb-5.mb-lg-0
+            .row.justify-content-center
               .col-5
                 figure
                 img.img505(src='@/assets/curso/tema1/img20.png', alt='Texto que describa la imagen')
             p.pt-5 Otra estrategia que amerita aplicar en el análisis de la competencia es una comparativa con las demás empresas para determinar las diferencias más representativas en aspectos tales como tecnología, situación financiera, procesos productivos y buen nombre. 
           .col-md.tarjeta.color-secundario.border-tarjetas_t6.tar1.p-5
-            .row.justify-content-center.mb-4.height_tarjetas_t6
-              .col-5.mb-5
+            .row.justify-content-center
+              .col-5
                 figure
                   img.img505(src='@/assets/curso/tema1/img21.png', alt='Texto que describa la imagen')
             p.pt-5 Medir las diferencias y categorizarlas puede facilitar la priorización de medidas, de tal forma que se aborden las debilidades más prominentes en el corto plazo, haciendo un uso inteligente de los recursos disponibles.
@@ -462,42 +463,42 @@
             p Suele encargarse de la planeación a largo plazo, definiendo objetivos y políticas que abarcan toda la empresa de forma general. Representan de forma directa la visión de la empresa y sus directivas. Dada su envergadura, la programación no se detalla demasiado, sino que le otorga un norte a cada área organizacional.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema1/img34.png')
+              img.img-t(src='@/assets/curso/tema1/img34.png').mx-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Nivel táctico]
             p Es una escala intermedia en la que se plantean propósitos y objetivos a mediano plazo. Las tareas les corresponden, por lo tanto, a jefes de área y personal de supervisión. Aquí se incluyen actividades que involucren partidas presupuestales a ejecutarse en los meses siguientes, por ejemplo, definir la contratación con medios para una campaña publicitaria o el desarrollo de una nueva presentación del producto estrella.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema1/img35.png')
+              img.img-t(src='@/assets/curso/tema1/img35.png').mx-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Nivel operativo]
             p Es el nivel más básico, donde se ejecutan las tareas propias del día a día, asociadas al personal de menor jerarquía en la empresa. Aquí se pueden incluir tareas como visitar tiendas determinadas, asistir a eventos comerciales como ferias o simplemente dedicarse a vender según las directrices otorgadas por los niveles superiores.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema1/img36.png')
+              img.img-t(src='@/assets/curso/tema1/img36.png').mx-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Tareas independientes y conjuntas]
             p La programación de las actividades requiere definir tareas para cada nivel de forma independiente y conjunta, por ejemplo, las actividades más repetitivas y básicas serán desarrolladas por el nivel operativo, mientras que la supervisión de esas tareas se erige como otro compromiso independiente, a cargo de los niveles jerárquicos superiores.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema1/img37.png')
+              img.img-t(src='@/assets/curso/tema1/img37.png').mx-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Representación gráfica de las tareas]
             p El mismo diagrama de Gantt permite este tipo de asignaciones, bien sea haciendo uso de códigos de color, donde cada barra puede tomar un color diferente dependiendo del empleado asignado, o incluso diligenciando el nombre del responsable en el cuerpo de la propia barra de tiempo.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema1/img38.png')
+              img.img-t(src='@/assets/curso/tema1/img38.png').mx-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Seguimiento y compensaciones]
             p El seguimiento de cada tarea con un responsable asignado,favorece implementar medidas de recompensa para los empleados que ejecuten su labor de forma oportuna y cumpliendo con los requisitos determinados; de la misma forma, se pueden reprender a quienes hayan presentado falencias por falta de atención a las actividades. También permite determinar si existen colaboradores que no cumplen con los requerimientos necesarios para desempeñar su trabajo, y tomar las decisiones que sean necesarias, como el cambio de cargo o el despido justificado.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema1/img39.png')
+              img.img-t(src='@/assets/curso/tema1/img39.png').mx-auto
 </template>
 
 <script>

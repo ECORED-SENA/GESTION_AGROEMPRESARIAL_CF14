@@ -79,7 +79,7 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema2/img8.svg')
-          div(x="14.5%" y="47.6%" tooltip="Click para leer mas..." numero="+")
+          div(x="14.5%" y="47.6%" tooltip="Establecer lo que se medirá" numero="+")
             .row.justify-content-center.align-items-center
               .col-lg-10
                 h4.mb-3.text-dark Establecer lo que se medirá
@@ -88,7 +88,7 @@
                   img.mb-3.img-t(src='@/assets/curso/tema2/img9.svg').mx-auto
                 .col-lg-10
                   p.text-dark El planteamiento de los objetivos estratégicos definidos en la planeación serán el insumo principal para elegir los elementos a evaluar. En principio deben elegirse los procesos y resultados que serán medidos, es recomendable que se distingan por naturaleza o área funcional. Esto posibilita la designación de responsables y la elaboración de informes independientes para cada departamento de la empresa. 
-          div(x="32.3%" y="47.2%" tooltip="Click para leer mas..." numero="+")
+          div(x="32.3%" y="47.2%" tooltip="Definir indicadores" numero="+")
             .row.justify-content-center.align-items-center
               .col-lg-10
                 h4.mb-3.text-dark Definir indicadores
@@ -97,7 +97,7 @@
                    img.mb-3(src='@/assets/curso/tema2/img10.svg')
                 .col-lg-10
                   p.text-dark Son razones en las que se relacionan diferentes datos para medir las variaciones en un periodo de tiempo. Los indicadores pueden ser diseñados por la parte evaluadora en función de lo que se espere medir, y se pueden expresar en términos absolutos (unidades) o relativos (porcentajes).
-          div(x="85.5%" y="47.7%" tooltip="Click para leer mas...")
+          div(x="85.5%" y="47.7%" tooltip="Medir el rendimiento")
             .row.justify-content-center.align-items-center
               .col-lg-10
                 h4.mb-3.text-dark Aplicar medidas productivas
@@ -106,7 +106,7 @@
                    img.mb-3(src='@/assets/curso/tema2/img14.svg')
                 .col-lg-10
                   p.text-dark Tomar medidas correctivas cuando no se alcanzan los resultados esperados, es procedente evaluar cuáles fueron los factores responsables de ello. Esto conlleva a nuevas propuestas que modifican parcial o completamente las estrategias iniciales. Este paso implica el reinicio del ciclo, puesto que una vez son sometidas a cambio las estrategias a aplicar se debe retomar la ejecución con las nuevas reglas y posteriormente, volver a evaluar los resultados para determinar si los cambios resultaron beneficiosos para los propósitos empresariales.           
-          div(x="68%" y="86.5%" tooltip="Click para leer mas...")
+          div(x="68%" y="86.5%" tooltip="¿Concuerda con lo esperado?")
             .row.justify-content-center.align-items-center
               .col-lg-10
                 h4.mb-3.text-dark Alto
@@ -115,7 +115,7 @@
                    img.mb-3(src='@/assets/curso/tema2/img13.svg')
                 .col-lg-10
                   p.text-dark Si se había presupuestado incrementar el número de unidades vendidas de un producto en 10.000 unidades; pero el incremento apenas alcanzó las 5.000 unidades, la comparación de los resultados indica que solo se logró un 50% de la efectividad esperada con las estrategias implementadas.
-          div(x="67.6%" y="47.7%" tooltip="Click para leer mas...")
+          div(x="67.6%" y="47.7%" tooltip="Aplicar medidas productivas")
            .row.justify-content-center.align-items-center
               .col-lg-10
                 h4.mb-3.text-dark ¿Concuerda con lo esperado?
@@ -124,7 +124,7 @@
                    img.mb-3(src='@/assets/curso/tema2/img12.svg')
                 .col-lg-10
                   p.text-dark Es una actividad clara y directa, se deben comparar los resultados presupuestados durante la planeación con los efectivamente alcanzados. Esta comparativa debe medirse en términos relativos, donde lo estimado inicialmente equivale al 100% de efectividad.
-          div(x="50.6%" y="47.4%" tooltip="Click para leer mas...")
+          div(x="50.6%" y="47.4%" tooltip="Alto")
               .row.justify-content-center.align-items-center
                 .col-lg-10
                   h4.mb-3.text-dark Medir el rendimiento
@@ -148,42 +148,42 @@
             p Consiste en una tarea que se ejecuta junto con las demás contenidas en la estrategia, es decir, es una tarea accesoria para el personal operativo, y funciona como uno de los sistemas más detallados, gracias a su proximidad con el trabajo realizado y su permanencia. El tipo de evidencia puede variar dependiendo de la naturaleza del trabajo, y va desde documentos, hasta fotografías o grabaciones.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema2/img15.png')
+              img.img-t(src='@/assets/curso/tema2/img15.png').mx-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Estudios específicos]
             p Es una de las estrategias más avanzadas. Normalmente se contratan consultores especialistas en un área específica, para que desarrolle un trabajo de investigación avanzado sobre una temática precisa. Los resultados suelen evidenciarse en informes o monografías, así como reportes técnicos con información de utilidad.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema2/img16.png')
+              img.img-t(src='@/assets/curso/tema2/img16.png').mx-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Confrontación de puntos de vista]
             p En muchas ocasiones, las opiniones de diferentes trabajadores puede aportar información útil, que desde la perspectiva del evaluador se pasa por alto. Para ello, se recomienda efectuar reuniones periódicas con los miembros del equipo de cada área para recopilar todos los hechos identificados en el desarrollo del trabajo. Lo ideal es que cada quien aporte desde su experticia y que la evidencia se sustente en actas o documentos firmados por los participantes.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema2/img17.png')
+              img.img-t(src='@/assets/curso/tema2/img17.png').mx-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Entrevista]
             p Se recomienda el uso de entrevistas semiestructuradas, es decir, que cuenten con una lista de preguntas de base sobre las cuales iniciar el trabajo. Acudir y efectuar las entrevistas a las personas que realizan tareas relevantes y sobre las cuales se desee profundizar. La retroalimentación proveniente de las respuestas puede abrir espacios nuevos de discusión motivados por los hallazgos.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema2/img18.png')
+              img.img-t(src='@/assets/curso/tema2/img18.png').mx-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Observación]
             p La supervisión directa suele generar resultados válidos y de gran valor, consiste en estar presente durante la ejecución de las tareas y a través de la observación identificar conductas o procedimientos susceptibles de mejora.  Es recomendable prepararse previo a la visita con la indagación a que haya lugar, para que se focalice el trabajo en aquellos aspectos que demanden especial atención.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema2/img19.png')
+              img.img-t(src='@/assets/curso/tema2/img19.png').mx-auto
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Encuesta]
             p Es el sistema más práctico para recolectar la información de un gran número de personas. Se recomiendan preguntas cerradas para facilitar la compilación y la tabulación de los datos; sin embargo, el espacio para preguntas abiertas puede complementar las respuestas y otorgar información adicional que no haya sido contemplada inicialmente. En función de estas respuestas es posible codificarlas para efectuar análisis estadísticos que lleven a identificar situaciones generalizadas o tendencias.
           .col-lg-8.ps-4
             figure
-              img(src='@/assets/curso/tema2/img20.png')
+              img.img-t(src='@/assets/curso/tema2/img20.png').mx-auto
     .row.mb-5
       .col-12.bg-color4.p-4
         .row.align-items-center.justify-content-center
