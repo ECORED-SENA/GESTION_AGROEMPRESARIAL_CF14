@@ -94,43 +94,43 @@
                 h4.mb-3.text-dark Definir indicadores
               .row
                 .col-lg-2
-                   img.mb-3(src='@/assets/curso/tema2/img10.svg')
+                   img.mb-3.img-t(src='@/assets/curso/tema2/img10.svg').mx-auto
                 .col-lg-10
                   p.text-dark Son razones en las que se relacionan diferentes datos para medir las variaciones en un periodo de tiempo. Los indicadores pueden ser diseñados por la parte evaluadora en función de lo que se espere medir, y se pueden expresar en términos absolutos (unidades) o relativos (porcentajes).
-          div(x="85.5%" y="47.7%" tooltip="Medir el rendimiento")
+          div(x="85.5%" y="47.7%" tooltip="Aplicar medidas productivas")
             .row.justify-content-center.align-items-center
               .col-lg-10
                 h4.mb-3.text-dark Aplicar medidas productivas
               .row
                 .col-lg-2
-                   img.mb-3(src='@/assets/curso/tema2/img14.svg')
+                   img.mb-3.img-t(src='@/assets/curso/tema2/img14.svg').mx-auto
                 .col-lg-10
                   p.text-dark Tomar medidas correctivas cuando no se alcanzan los resultados esperados, es procedente evaluar cuáles fueron los factores responsables de ello. Esto conlleva a nuevas propuestas que modifican parcial o completamente las estrategias iniciales. Este paso implica el reinicio del ciclo, puesto que una vez son sometidas a cambio las estrategias a aplicar se debe retomar la ejecución con las nuevas reglas y posteriormente, volver a evaluar los resultados para determinar si los cambios resultaron beneficiosos para los propósitos empresariales.           
-          div(x="68%" y="86.5%" tooltip="¿Concuerda con lo esperado?")
+          div(x="68%" y="86.5%" tooltip="Alto")
             .row.justify-content-center.align-items-center
               .col-lg-10
                 h4.mb-3.text-dark Alto
               .row
                 .col-lg-2
-                   img.mb-3(src='@/assets/curso/tema2/img13.svg')
+                   img.mb-3.img-t(src='@/assets/curso/tema2/img13.svg').mx-auto
                 .col-lg-10
                   p.text-dark Si se había presupuestado incrementar el número de unidades vendidas de un producto en 10.000 unidades; pero el incremento apenas alcanzó las 5.000 unidades, la comparación de los resultados indica que solo se logró un 50% de la efectividad esperada con las estrategias implementadas.
-          div(x="67.6%" y="47.7%" tooltip="Aplicar medidas productivas")
+          div(x="67.6%" y="47.7%" tooltip="¿Concuerda con lo esperado?")
            .row.justify-content-center.align-items-center
               .col-lg-10
                 h4.mb-3.text-dark ¿Concuerda con lo esperado?
               .row
                 .col-lg-2
-                   img.mb-3(src='@/assets/curso/tema2/img12.svg')
+                   img.mb-3.img-t(src='@/assets/curso/tema2/img12.svg').mx-auto
                 .col-lg-10
                   p.text-dark Es una actividad clara y directa, se deben comparar los resultados presupuestados durante la planeación con los efectivamente alcanzados. Esta comparativa debe medirse en términos relativos, donde lo estimado inicialmente equivale al 100% de efectividad.
-          div(x="50.6%" y="47.4%" tooltip="Alto")
+          div(x="50.6%" y="47.4%" tooltip="Medir el rendimiento")
               .row.justify-content-center.align-items-center
                 .col-lg-10
                   h4.mb-3.text-dark Medir el rendimiento
                 .row
                   .col-lg-2
-                     img.mb-3(src='@/assets/curso/tema2/img11.svg')
+                     img.mb-3.img-t(src='@/assets/curso/tema2/img11.svg').mx-auto
                   .col-lg-10
                     p.text-dark En esta fase se debe tener claridad respecto al plazo que se le dará a las estrategias para medir su efectividad. Tratándose de aspectos estratégicos, usualmente se evalúa a partir de un año desde su implementación; sin embargo, existe una supervisión permanente sobre los detalles para minimizar los eventos que lastren la efectividad de las medidas aplicadas.
           

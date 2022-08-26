@@ -23,7 +23,7 @@
             .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema3/img1.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;")
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-6.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema3/img2.png', alt='Texto que describa la imagen')
