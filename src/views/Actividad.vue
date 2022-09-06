@@ -35,7 +35,7 @@
               p.fw-bold.mb-0 Verdadero/falso 
               falso 
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad2/actividad.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
     
