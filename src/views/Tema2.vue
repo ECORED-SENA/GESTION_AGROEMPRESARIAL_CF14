@@ -196,7 +196,7 @@
     p.mb-5 Identifique los componentes del sistema de monitoreo y detalle sus características observando con atención el video que se muestra enseguida:     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)(data-aos="fade-right")
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/dQm92wojD7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)(data-aos="fade-right")
     separador
     #t_2_3
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")

@@ -375,7 +375,8 @@
     p En el siguiente video se amplían las generalidades más importantes de la programación de actividades dentro del plan de mercadeo:         
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)(data-aos="fade-right")
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/bVsq4UNB3Fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)(data-aos="fade-right")
+
     .row.mb-5
       .col-12.bg-color4.p-4
         .row.align-items-center.justify-content-center(data-aos="fade-right")
