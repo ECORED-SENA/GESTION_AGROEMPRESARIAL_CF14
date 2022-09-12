@@ -33,7 +33,7 @@
           .tarjeta.tarjeta.bg-color5.p-4.h-100
             img(src='@/assets/curso/tema2/img2.png', alt='Texto que describa la imagen' ).mb-5
             h4.text-center Aspectos mejorables
-            p.text-center La supervisión es el eje fundamental de la filosofía empresarial de la mejora continua, puesto que cualquier proceso que espere mejorarse, primero debe ser medido en todos sus elementos, de tal forma que se identifiquen los aspectos mejorables.”
+            p.text-center La supervisión es el eje fundamental de la filosofía empresarial de la mejora continua, puesto que cualquier proceso que espere mejorarse, primero debe ser medido en todos sus elementos, de tal forma que se identifiquen los aspectos mejorables.
         .col-lg-4.mb-4
           .tarjeta.tarjeta.bg-color5.p-4.h-100
             img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen' ).mb-5
