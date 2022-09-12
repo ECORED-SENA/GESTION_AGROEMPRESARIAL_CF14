@@ -245,11 +245,6 @@ export default {
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
-        nombre: 'Carolina Coca Salazar',
-        cargo: 'Asesora metodológica',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-      },
-      {
         nombre: 'Julia Isabel Roberto',
         cargo: 'Correctora de estilo',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
@@ -263,7 +258,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Edison Mnatilla Cuadros',
+        nombre: 'Edison Mantilla Cuadros',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

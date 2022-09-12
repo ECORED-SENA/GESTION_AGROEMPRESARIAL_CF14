@@ -155,7 +155,7 @@
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Escala de competición y tradición histórica]
-            p Si se destina una cantidad de recursos muy elevada para crear, por ejemplo, una bebida gaseosa que compita con titanes del marketing como Coca Cola, es posible que los resultados efectivos nunca alcancen las expectativas, puesto que este mercado se encuentra fuertemente dominado por un competidor de escala inmensa y de una tradición histórica que pocas empresas tienen en el mundo.
+            p Si se destina una cantidad de recursos muy elevada para crear, por ejemplo, una bebida gaseosa que compita con titanes del <em>marketing</em> como Coca Cola, es posible que los resultados efectivos nunca alcancen las expectativas, puesto que este mercado se encuentra fuertemente dominado por un competidor de escala inmensa y de una tradición histórica que pocas empresas tienen en el mundo.
           .col-lg-8
             figure
               img.img-t(src='@/assets/curso/tema1/img13.png').mx-auto
@@ -177,25 +177,21 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")(data-aos="fade-right").justify-content-center
       .row(titulo="Antecedentes")(data-aos="fade-right")
         .col-md-6.align-items-center
-          h5.ps-5 Antecedentes
           p.ps-5 ¿Cómo nacen estas empresas, cuál ha sido su trayectoria y cuál es su magnitud en la actualidad?
         .col-lg-5.col-md-6.col-12.p-0
           img(src='@/assets/curso/tema1/img16.png')
       .row(titulo="Tipo de empresa")
         .col-md-6.align-items-center
-          h5.ps-5 Tipo de empresa
           p.ps-5 Si son relevantes dentro del mercado, obtener información de ellas puede redundar en una guía de aquello a lo que se puede llegar si se toma decisiones correctas. De ellas se pueden tomar las buenas prácticas que se consideren efectivas para la consecución de objetivos comerciales.
         .col-lg-5.col-md-6.col-12.p-0
           img(src='@/assets/curso/tema1/img17.png')
       .row(titulo="Portafolio de productos")
         .col-md-6.align-items-center
-          h5.ps-5  Portafolio de productos
           p.ps-5 La mayoría de las empresas consolidadas en el mercado lo logran a través de una oferta variada de productos. Es importante evaluar cuántos de ellos compiten con los del emprendimiento, así como la forma en la que estas variaciones repercuten en la demanda, de allí pueden surgir ideas respecto a la forma en la que se debe abordar el mercado y cómo ampliar las posibilidades del negocio.
         .col-lg-5.col-md-6.col-12.p-0
           img(src='@/assets/curso/tema1/img18.png')
       .row(titulo="Estructura organizacional")
         .col-md-6.align-items-center
-          h5.ps-5 Estructura organizacional
           p.ps-5 La gestión de una empresa de la competencia puede dar luces a la forma de administrar la propia, es así como resulta conveniente analizar sus políticas comerciales, su estructura organizacional o su énfasis en la innovación.
         .col-lg-5.col-md-6.col-12.p-0
           img(src='@/assets/curso/tema1/img19.png')
@@ -291,10 +287,10 @@
           .row.mb-5(data-aos="fade-right")
             .col-md-12.mb-5.mb-md-0
               LineaTiempoD.color-primario
-                p(numero="1" titulo="Producto") ¿Qué tipo de producto se va a vender al mercado?, ¿cumple con las necesidades observadas en los clientes potenciales? Se debe evaluar si existe una variedad suficiente de opciones para cada tipo de comprador, también puede verificarse si su presentación es atractiva y, en caso de que aplique, si cumple con la normatividad correspondiente. 
+                p(numero="1" titulo="Producto") ¿Qué tipo de producto se va a vender al mercado?, ¿cumple con las necesidades observadas en los clientes potenciales?. Se debe evaluar si existe una variedad suficiente de opciones para cada tipo de comprador, también puede verificarse si su presentación es atractiva y, en caso de que aplique, si cumple con la normatividad correspondiente. 
                 p(numero="2" titulo="Situación financiera") Validar que los recursos de la empresa son los necesarios para mantener una operación continua, si las estrategias a implementar pueden costearse o si existen mecanismos que garanticen suplir las necesidades de producción a lo largo del tiempo. Evaluar sistemas de financiación con el sector financiero o con los mismos proveedores y, de forma paralela, determinar las políticas de recaudo de las ventas a crédito si hay lugar a ellas.
-                p(numero="3" titulo="Importancia de la identificación") Una correcta identificación puede abrir una ventana de oportunidad a crear un producto adecuado para algunas de estas necesidades, creando una ventaja competitiva en el medio.                
-                p(numero="4" titulo="Cuantificar la demanda") En esta fase resulta prioritario cuantificar la demanda del producto que se ofrecerá al mercado.
+                p(numero="3" titulo="Producción") Verificar si existe capacidad instalada suficiente para cubrir los requerimientos de la demanda; si existen líneas de producción eficientes que no lleven a reprocesos y minimicen los costos. Evaluar las condiciones tecnológicas y si resulta conveniente invertir en la modernización de los equipos. Corroborar el cumplimiento de los requerimientos técnicos y las condiciones apropiadas de una planta de producción de este tipo de bienes.
+                p(numero="4" titulo="Gestión comercial") Revisar idoneidad del equipo de ventas (capacidad y cantidad), si los productos son muy especializados, así mismo, deberá estar preparada la planta comercial. Comparar el precio frente a la competencia, tener certeza de su atractivo para que el cliente se incline por elegirlo entre el abanico de opciones. Evaluar la idoneidad de la marca del producto y de la empresa, su nombre debe generar recordación y el diseño debe generar interés.
         .col-lg-6.d-flex.align-items-center
           img(src='@/assets/curso/tema1/img30.png', alt='Texto que describa la imagen').mb-4
     .row.mb-5
@@ -496,7 +492,7 @@
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0.ps-5
             p #[b Seguimiento y compensaciones]
-            p El seguimiento de cada tarea con un responsable asignado,favorece implementar medidas de recompensa para los empleados que ejecuten su labor de forma oportuna y cumpliendo con los requisitos determinados; de la misma forma, se pueden reprender a quienes hayan presentado falencias por falta de atención a las actividades. También permite determinar si existen colaboradores que no cumplen con los requerimientos necesarios para desempeñar su trabajo, y tomar las decisiones que sean necesarias, como el cambio de cargo o el despido justificado.
+            p El seguimiento de cada tarea con un responsable asignado,  favorece implementar medidas de recompensa para los empleados que ejecuten su labor de forma oportuna y cumpliendo con los requisitos determinados; de la misma forma, se pueden reprender a quienes hayan presentado falencias por falta de atención a las actividades. También permite determinar si existen colaboradores que no cumplen con los requerimientos necesarios para desempeñar su trabajo, y tomar las decisiones que sean necesarias, como el cambio de cargo o el despido justificado.
           .col-lg-8.ps-4
             figure
               img.img-t(src='@/assets/curso/tema1/img39.png').mx-auto

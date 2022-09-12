@@ -33,7 +33,7 @@
           .tarjeta.tarjeta.bg-color5.p-4.h-100
             img(src='@/assets/curso/tema2/img2.png', alt='Texto que describa la imagen' ).mb-5
             h4.text-center Aspectos mejorables
-            p.text-center El seguimiento de cada tarea con un responsable asignado,favorece implementar medidas de recompensa para los empleados que ejecuten su labor de forma oportuna y cumpliendo con los requisitos determinados; de la misma forma, se pueden reprender a quienes hayan presentado falencias por falta de atención a las actividades. También permite determinar si existen colaboradores que no cumplen con los requerimientos necesarios para desempeñar su trabajo, y tomar las decisiones que sean necesarias, como el cambio de cargo o el despido justificado.
+            p.text-center La supervisión es el eje fundamental de la filosofía empresarial de la mejora continua, puesto que cualquier proceso que espere mejorarse, primero debe ser medido en todos sus elementos, de tal forma que se identifiquen los aspectos mejorables.”
         .col-lg-4.mb-4
           .tarjeta.tarjeta.bg-color5.p-4.h-100
             img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen' ).mb-5
@@ -56,7 +56,6 @@
           img(src='@/assets/curso/tema2/img5.png')(data-aos="fade-right")
     p.mb-5.text-center Estos son algunos aspectos clave de la evaluación estratégica que debe tener presentes:
     .row.justify-content-center(data-aos="fade-right")
-        p.mb-4.text-center En relación con el monitoreo y la supervisión tenga presente:
         .col-lg-3.mb-4
           .tarjeta.tarjeta.bg-color6.p-4.h-100
             img(src='@/assets/curso/tema2/img6.png', alt='Texto que describa la imagen' ).mb-5
@@ -206,7 +205,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 5]. Flujograma de acciones de seguimiento
+          p.mb-0 #[b Figura 1]. Flujograma de acciones de seguimiento
         figure
           img(src='@/assets/curso/tema2/img21.svg')
           figcaption #[b Nota]. Adaptado de la Junta de Andalucía (2016).
