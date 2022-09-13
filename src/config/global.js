@@ -152,6 +152,8 @@ export default {
       referencia:
         'Servicio Nacional de Aprendizaje. (2007). Paso 5 plan de mercadeo/estrategias de comercialización. SENA.',
       tipo: 'Cartilla',
+      link:
+        'https://www.unab.edu.co/sites/default/files/archivos/publicacion_noticias/5-PlanMercadeo.pdf',
     },
     {
       tema: 'Monitoreo y supervisión',
